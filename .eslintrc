@@ -48,6 +48,8 @@
 
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-empty-function": "off",
+
     "import/order": [
       "error",
       {
@@ -67,7 +69,9 @@
         }
       }
     ],
+    "import/default": "off",
     "import/prefer-default-export": "off",
+    "import/no-named-as-default-member": "off",
     "no-autofix/unused-imports/no-unused-imports": "warn",
     "import/no-extraneous-dependencies": ["error"],
     "unused-imports/no-unused-vars": [
@@ -77,6 +81,7 @@
     "react/jsx-curly-brace-presence": [
       "error",
       { "props": "never", "children": "never", "propElementValues": "always" }
-    ]
+    ],
+    "jsx-a11y/media-has-caption": "off"
   }
 }
